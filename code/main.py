@@ -14,7 +14,7 @@ import math
 def adjust_learning_rate(optimizer, epoch, args):
     lr_min = 0
     if args.cosine:
-        lr = math.fabs(lr_min + (1 + math.cos(1 * epoch * math.pi / args.nEpochs)) * (args.lr + lr_min) / 2.)
+        lr = math.fabs(lr_min + (1 + math.cos(1 * epoch * math.pi / args.nEpochs)) * (args.lr - lr_min) / 2.)
     else:
         lr = args.lr * (0.1 ** (epoch // 30))
 
