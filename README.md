@@ -5,7 +5,7 @@ This is the pytorch implemention of our paper [***Contrastive Cross-site Learnin
 
 > The pandemic of coronavirus disease 2019 (COVID-19) has lead to a global public health crisis spreading hundreds of countries in its five months. With the continuous growth of new infections, developing automated tools for COVID-19 identification with CT imaging is urgently desired to assist the clinical diagnosis and reduce the tedious workload of image interpretation.  With current situation of the insufficiency of available COVID-19 images, it is essential to aggregate the cases from different medical systems for robust model development.  This paper proposes a novel joint learning framework to perform highly-accurate COVID-19 identification by effectively learning with heterogeneous datasets from different public data sources. We build a powerful backbone by redesigning the recently proposed COVID-Net in aspects of network architecture and learning strategy to improve the diagnosis accuracy and learning efficiency. On top of our revised backbone, we further explicitly tackle the cross-site data heterogeneity by conducting separate feature normalization in latent space. Moreover, we propose a contrastive training objective to enhance the domain invariance of semantic embeddings for boosting the classification performance on each dataset. We develop and evaluate our method with two public large-scale COVID-19 diagnosis datasets from real CT images. Extensive experiments show that our approach consistently improves the performances on both datasets, as well as outperforms several state-of-the-art joint learning methods.
 
-![avatar](assets/framework.pdf)
+![avatar](assets/framework.png)
 
 ## Usage
 
