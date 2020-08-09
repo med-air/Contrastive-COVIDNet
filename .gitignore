@@ -1,0 +1,5 @@
+data/COVID-CT/*
+data/SARS-Cov-2/*
+code/saved/cont/*
+.idea
+.DS_Store

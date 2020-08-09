@@ -1,0 +1,8 @@
+python==3.5.2
+numpy==1.16.2
+Pillow==7.1.2
+six==1.14.0
+torch==0.4.1
+torchvision==0.2.0
+tqdm==4.19.9
+pytorch-metric-learning==0.9.86
