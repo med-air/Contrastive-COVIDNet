@@ -19,11 +19,11 @@ pip install -r requirements.txt
 
 #### Dataset
 
-Download from [Google Drive](https://drive.google.com/file/d/1JBp9RH9-yBEdtkNYDi6wWL79o62JD5Td/view?usp=sharing) and put into data/ directory.
+Download from [Google Drive](https://drive.google.com/file/d/1JBp9RH9-yBEdtkNYDi6wWL79o62JD5Td/view?usp=sharing) and put into `data/` directory.
 
 #### Pretrained Model
 
-You can directly download our pretrained model from [Google Drive](https://drive.google.com/file/d/1ZwtxF4c_pvyv_uyE4Zx4_bNNHQx7Y_Ao/view?usp=sharing) and put into saved/ directory for testing.
+You can directly download our pretrained model from [Google Drive](https://drive.google.com/file/d/1ZwtxF4c_pvyv_uyE4Zx4_bNNHQx7Y_Ao/view?usp=sharing) and put into `saved/` directory for testing.
 
 #### Training
 
@@ -40,7 +40,7 @@ python test.py
 ```
 
 ## Citation
-If you find this code useful, please cite in your research papers.
+If you find this code and dataset useful, please cite in your research papers.
 ```
 @misc{wang2020contrastive,
     title={Contrastive Cross-site Learning with Redesigned Model for COVID CT Classification},
