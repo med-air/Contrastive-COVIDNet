@@ -6,7 +6,7 @@ from collections import OrderedDict
 import json
 import torch.optim as optim
 import pandas as pd
-from model.model import CovidNet
+from model import CovidNet
 import csv
 import numpy as np
 

@@ -3,7 +3,7 @@ import torch
 import os
 import torch.nn as nn
 from util import Metrics, print_summary
-from model.metric import accuracy, top_k_acc
+from metric import accuracy, top_k_acc
 from dataset import COVID_CT_Dataset
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -13,7 +13,7 @@ from torchvision.datasets import ImageFolder
 from torchvision import transforms
 from torch.utils.data import DataLoader
 from skimage.segmentation import slic, mark_boundaries
-from model.model import *
+from model import *
 import torch.optim as optim
 from pytorch_metric_learning import losses
 

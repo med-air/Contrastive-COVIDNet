@@ -1,4 +1,4 @@
-from model.model import *
+from model import *
 import torch
 from PIL import Image
 from torchvision import transforms
