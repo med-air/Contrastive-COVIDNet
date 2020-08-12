@@ -1,5 +1,5 @@
 # Multi-site COVID-Net CT Classification
-This is the pytorch implemention of our paper [***Contrastive Cross-site Learning with Redesigned Model for COVID CT Classification***]() by [Zhao Wang](http://kyfafyd.wang/), [Quande Liu](https://liuquande.github.io/), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/)
+This is the pytorch implemention of our paper [***Contrastive Cross-site Learning with Redesigned Net for COVID-19 CT Classification***]() by [Zhao Wang](http://kyfafyd.wang/), [Quande Liu](https://liuquande.github.io/), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/)
 
 ## Abatract
 
