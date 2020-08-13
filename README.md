@@ -64,7 +64,7 @@ For further questions, pls feel free to contact [Zhao Wang](mailto:kyfafyd@zju.e
 
 [1] E. Soares, P. Angelov, S. Biaso, M. Higa Froes, and D. Kanda Abe, “Sars-cov-2 ct-scan dataset: A large dataset of real patients ct scans for sars-cov-2 identification,” medRxiv, 2020.
 
-[2] J. Zhao, X. He, X. Yang, Y. Zhang, S. Zhang, and P. Xie, “Covid-ct- dataset: A ct scan dataset about covid-19,” 2020.
+[2] J. Zhao, X. He, X. Yang, Y. Zhang, S. Zhang, and P. Xie, “Covid-ct-dataset: A ct scan dataset about covid-19,” 2020.
 
 [3] L.Wang and A.Wong,“Covid-net:A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images,” 2020.
 
