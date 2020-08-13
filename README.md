@@ -66,8 +66,8 @@ For further questions, pls feel free to contact [Zhao Wang](mailto:kyfafyd@zju.e
 
 [2] J. Zhao, X. He, X. Yang, Y. Zhang, S. Zhang, and P. Xie, “Covid-ct- dataset: A ct scan dataset about covid-19,” 2020.
 
-[3] L.Wang and A.Wong,“Covid-net:Atailoreddeepconvolutionalneural network design for detection of covid-19 cases from chest x-ray images,” 2020.
+[3] L.Wang and A.Wong,“Covid-net:A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images,” 2020.
 
 [4] W.-G. Chang, T. You, S. Seo, S. Kwak, and B. Han, “Domain-specific batch normalization for unsupervised domain adaptation,” in CVPR, 2019.
 
-[5] T. Chen, S. Kornblith, M. Norouzi, and G. Hinton, “A simple frame- work for contrastive learning of visual representations,” arXiv preprint arXiv:2002.05709, 2020.
+[5] T. Chen, S. Kornblith, M. Norouzi, and G. Hinton, “A simple framework for contrastive learning of visual representations,” arXiv preprint arXiv:2002.05709, 2020.
