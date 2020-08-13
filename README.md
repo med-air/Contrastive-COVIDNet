@@ -21,7 +21,8 @@ pip install -r requirements.txt
 
 We employ two publicly available COVID-19 CT datasets:
 
-
+- [SARS-CoV-2 dataset](https://www.medrxiv.org/content/10.1101/2020.04.24.20078584v3)
+- [COVID-CT dataset](http://arxiv.org/abs/2003.13865)
 
 Download our pre-processed datasets from [Google Drive](https://drive.google.com/file/d/1JBp9RH9-yBEdtkNYDi6wWL79o62JD5Td/view?usp=sharing) and put into `data/` directory.
 
@@ -58,3 +59,15 @@ If you find this code and dataset useful, please cite in your research papers.
 ## Questions
 
 For further questions, pls feel free to contact [Zhao Wang](mailto:kyfafyd@zju.edu.cn)
+
+## References
+
+[1] E. Soares, P. Angelov, S. Biaso, M. Higa Froes, and D. Kanda Abe, “Sars-cov-2 ct-scan dataset: A large dataset of real patients ct scans for sars-cov-2 identification,” medRxiv, 2020.
+
+[2] J. Zhao, X. He, X. Yang, Y. Zhang, S. Zhang, and P. Xie, “Covid-ct- dataset: A ct scan dataset about covid-19,” 2020.
+
+[3] L.Wang and A.Wong,“Covid-net:Atailoreddeepconvolutionalneural network design for detection of covid-19 cases from chest x-ray images,” 2020.
+
+[4] W.-G. Chang, T. You, S. Seo, S. Kwak, and B. Han, “Domain-specific batch normalization for unsupervised domain adaptation,” in CVPR, 2019.
+
+[5] T. Chen, S. Kornblith, M. Norouzi, and G. Hinton, “A simple frame- work for contrastive learning of visual representations,” arXiv preprint arXiv:2002.05709, 2020.
