@@ -1,5 +1,5 @@
 # Multi-site COVID-Net CT Classification
-This is the pytorch implemention of our paper [***Contrastive Cross-site Learning with Redesigned Net for COVID-19 CT Classification***]() by [Zhao Wang](http://kyfafyd.wang/), [Quande Liu](https://liuquande.github.io/), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/)
+This is the PyTorch implemention of our paper [***Contrastive Cross-site Learning with Redesigned Net for COVID-19 CT Classification***]() by [Zhao Wang](http://kyfafyd.wang/), [Quande Liu](https://liuquande.github.io/), [Qi Dou](http://www.cse.cuhk.edu.hk/~qdou/)
 
 ## Abatract
 
@@ -71,3 +71,5 @@ For further questions, pls feel free to contact [Zhao Wang](mailto:kyfafyd@zju.e
 [4] W.-G. Chang, T. You, S. Seo, S. Kwak, and B. Han, “Domain-specific batch normalization for unsupervised domain adaptation,” in CVPR, 2019.
 
 [5] T. Chen, S. Kornblith, M. Norouzi, and G. Hinton, “A simple framework for contrastive learning of visual representations,” arXiv preprint arXiv:2002.05709, 2020.
+
+[6] A. Paszke, S. Gross, F. Massa, A. Lerer, J. Bradbury, G. Chanan, T. Killeen, Z. Lin, N. Gimelshein, L. Antiga *et al.*, “Pytorch: An imperative style, high-performance deep learning library,” in *Advances in neural information processing systems*, 2019, pp. 8026–8037.
