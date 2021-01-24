@@ -82,7 +82,7 @@ def train(args, model, trainloader, optimizer, epoch):
         if len(ucsd_input) > 1:
             ucsd_output, ucsd_features = model(ucsd_input, 'ucsd')
         if len(new_input) > 1:
-            new_output, new_features = model(new_input, 'ucsd')
+            new_output, new_features = model(new_input, 'new')
 
         if len(ucsd_input) > 1 and len(new_input) > 1:
             output = torch.cat((ucsd_output, new_output))
@@ -171,7 +171,7 @@ def validation(args, model, testloader, epoch, mode='test'):
                 ucsd_test_total += ucsd_total
 
             if len(new_input) > 1:
-                new_output, new_features = model(new_input, 'ucsd')
+                new_output, new_features = model(new_input, 'new')
                 sars_correct, sars_total, sars_acc = accuracy(new_output, new_label.cuda())
                 sars_correct_total += sars_correct
                 sars_test_total += sars_total

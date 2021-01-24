@@ -6,6 +6,7 @@ from torch.autograd import Variable
 import h5py
 import numpy as np
 import os
+from tqdm import tqdm
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -37,6 +38,7 @@ dataset = ['../data/COVID-CT',
 dict = {'normal': 0, 'COVID-19': 1}
 
 for dataset_path in dataset:
+    print('Start testing', dataset_path[8:])
 
     correct = 0
 
@@ -69,7 +71,7 @@ for dataset_path in dataset:
     score = torch.from_numpy(np.array([]))
     target = torch.from_numpy(np.array([]))
 
-    for input in testimages:
+    for input in tqdm(testimages):
         # print(input)
         label = input.split(' ')[-1][:-1]
         if dataset_path != '../data/COVID-CT':
@@ -97,12 +99,19 @@ for dataset_path in dataset:
         if label == 'COVID-19' and pred == 'COVID-19':
             covid_correct += 1
 
-        print(input.split(' ')[1], label, pred, '\t\t', correct, '/', len(testimages))
+        # print(input.split(' ')[1], label, pred, '\t\t', correct, '/', len(testimages))
 
     accuracy = float(correct) / float(len(testimages))
     recall = float(covid_correct) / float(covid_all)
     precision = float(covid_correct) / float(covid_predict)
     f1 = 2 * recall * precision / (recall + precision)
 
-    print(dataset_path[8:], '\tCorrect:', correct, '/', len(testimages),
-          '\nAccuracy:', accuracy, '\tRecall:', recall, '\tPrecision:', precision, '\tF1:', f1)
+    print('{}\tCorrect: {:d}/{:d}, Accuracy: {:.2f}, Recall: {:.2f}, Precision: {:.2f}, F1: {:.2f}'.format(
+        dataset_path[8:],
+        correct,
+        len(testimages),
+        accuracy * 100.,
+        recall * 100.,
+        precision * 100.,
+        f1 * 100.
+    ))
